@@ -1,0 +1,26 @@
+{"apitesting":
+{"student_unknown":["GET","/api/unknown"],
+  "student_unknown2":["GET","/api/unknown/2"],
+  "User2":["GET","/api/users/2"],
+  "Users23":["GET","/api/users/23"],
+  "unknown23":["GET","/api/unknown/23"],
+  "users_delay":["GET","/api/users?delay=3"],
+  "users":["POST","/api/users/"],
+  "registersuccess":["POST","/api/register"],
+  "registerunsuccess":["POST","/api/register"],
+  "loginsuccess":["POST","/api/login"],
+  "loginunsuccess":["POST","/api/login"],
+    "users2_put":["PUT","/api/users/2"]
+
+
+},
+  "payload":
+  {
+  "users":{"name":"morpheus","job":"leader"},
+    "users2_put":{"name":"morpheus","job":"zion resident"},
+    "registersuccess":{"email":"sydney@fife","password":"pistol"},
+    "registerunsuccess":{"email":"sydney@fife"},
+    "loginsuccess":{"email":"peter@klaven","password":"cityslicka"},
+    "loginunsuccess":{"email":"peter@klaven"}
+  }
+}

@@ -1,0 +1,43 @@
+*** Settings ***
+Library           ../BIN/API_calling.py
+Library           ../lib/APITEST.py
+
+*** Test Cases ***
+testcase01
+    Call Specific Api    student_unknown
+
+tescase02
+    Call Specific Api    student_unknown2
+
+testcase03
+    Call Specific Api    User2
+
+testcase04
+    Call Specific Api    Users23
+
+testcase05
+    Call Specific Api    unknown23
+
+testcase06
+    Call Specific Api    users_delay
+
+testcase07
+    Call Specific Api    users
+
+testcase08
+    Call Specific Api    registersuccess
+
+testcase09
+    Call Specific Api    registerunsuccess
+
+testcase10
+    Call Specific Api    loginsuccess
+
+testcase11
+    Call Specific Api    loginunsuccess
+
+testcase12
+    Call Specific Api    users2_put
+
+testcase13
+    Get_All_Api_Response
