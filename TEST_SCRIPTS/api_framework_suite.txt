@@ -1,4 +1,5 @@
 *** Settings ***
+Force Tags        APIAIUTOMATION
 Library           ../BIN/API_calling.py
 Library           ../lib/APITEST.py
 
